@@ -24,6 +24,6 @@ export default function bot({ history, memory}) {
         memory.counter = 0
     }
 
-    return [move, memory]
+    return [move, memory] //lets hope its correct this time atleast :sob:
 
 }
