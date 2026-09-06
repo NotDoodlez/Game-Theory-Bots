@@ -1,5 +1,5 @@
 export default function bot({ history, memory }) {
-    //Its a tit for tat bot for now but I want it to delay its response
+    //It was supposed to be a delayed titfortat but its a defection bot by accident
 
     memory = memory ?? { opponentDefected: false, counter: 0 }
 
@@ -26,6 +26,6 @@ export default function bot({ history, memory }) {
 
 
 
-    return [move, memory]; //Lets go I did it (I think)
+    return [move, memory]; 
 
 }
